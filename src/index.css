@@ -1,0 +1,20 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+/* Tailwind CSS directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+body {
+  background-color: rgb(244, 244, 244);
+  font-family: "Open Sans", sans-serif; /* Applying Open Sans font to the entire body */
+}
+
+/* Custom class */
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-weight: inherit; /* Adjust font-weight as needed */
+  font-style: normal;
+}
